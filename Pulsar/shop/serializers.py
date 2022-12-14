@@ -14,11 +14,6 @@ class ProductsSerializers(serializers.ModelSerializer):
     def get_image(instance):
         all_form = ['jpg', 'webp', 'png']
         full_path = str(instance.path).split('.')
-        except_form = full_path[1]
         img = {'path': full_path[0],
-               'formats': [x for x in all_form if x != except_form]}
+               'formats': [x for x in all_form if x != full_path[1]]}
         return img
-
-
-# f'{full_path[1]}',
-#                            'webp'
