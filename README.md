@@ -6,7 +6,7 @@
   
 ## Run project:
   
-  `python manage.py runserver`
+  `python Pulsar/manage.py runserver`
   
 ### URLS:
   
