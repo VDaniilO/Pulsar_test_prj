@@ -12,5 +12,5 @@
   
   ```
   http://YOUR_LOCAL_URL/api/v1/all_orders/      | all products
-  http://YOUR_LOCAL_URL/api/v1/NAME_PRODUCTS/   | url for out all photo
+  http://YOUR_LOCAL_URL/api/v1/NAME_PRODUCTS/   | url for out all products
   ```
